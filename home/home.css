@@ -102,3 +102,50 @@ button:hover{
         font-size:25px;
     }
 }
+
+@media only screen and (max-width: 1200px){
+    @keyframes animate {
+        0%,100%{
+            background-image: url(../images/1200image4.jpg);
+            
+        }
+        25%{
+            background-image: url(../images/1200image1.jpg);
+        }
+        50%{
+            background-image: url(../images/1200image2.jpg);
+        }
+        75%{
+            background-image: url(../images/1200image3.jpg);
+        }
+    }
+}
+
+@media only screen and (max-width: 800px){
+    @keyframes animate {
+        0%,100%{
+            background-image: url(../images/800image4.jpg);
+            
+        }
+        25%{
+            background-image: url(../images/800image1.jpg);
+        }
+        50%{
+            background-image: url(../images/800image2.jpg);
+        }
+        75%{
+            background-image: url(../images/800image3.jpg);
+        }
+    }
+
+    h1{
+        font-size: 25px;
+    }
+    .navbar button{
+        font-size: 10px;
+    }
+    
+    .details button{
+        font-size:15px;
+    }
+}
