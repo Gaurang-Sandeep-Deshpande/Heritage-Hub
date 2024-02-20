@@ -16,7 +16,7 @@ body{
     color: rgb(0, 0, 0);
     font-size: 28px;
     height: 100vh;
-    width: 49vw;
+    width: 49%;
 }
 
 .line{
@@ -49,6 +49,10 @@ body{
     height: 65vh;
     width: 44vw;
     margin-left: 7%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    justify-content: center;
 }
 
 .back{
@@ -82,30 +86,13 @@ body{
     display: flex;
   }
 
-  .dev1{
+  .dev1, .dev2, .dev3, .dev4{
     border: 2px solid rgb(0, 0, 0);
     border-radius: 25%;
-    height: 100%;
     width: 100%;
+    height: 80%;
   }
-  .dev2{
-    border: 2px solid rgb(0, 0, 0);
-    border-radius: 25%;
-    height: 100%;
-    width: 100%;
-  }
-  .dev3{
-    border: 2px solid rgb(0, 0, 0);
-    border-radius: 25%;
-    height: 100%;
-    width: 100%;
-  }
-  .dev4{
-    border: 2px solid rgb(0, 0, 0);
-    border-radius: 25%;
-    height: 100%;
-    width: 100%;
-  }
+  
 
   table{
     height: 100%;
@@ -146,7 +133,7 @@ body{
 
   .content h1{
       margin-top: 10%;
-    font-size: 18px;
+    font-size: 21px;
     color: rgb(0, 0, 0);
     padding: 2px;
     font-weight: 200;
@@ -154,9 +141,9 @@ body{
     
   }
   
-  @media only screen and (max-width: 1000px){
+  @media only screen and (max-width: 1200px){
     .content h1{
-      font-size: 13px;
+      font-size: 17px;
     }
 
     .head{
@@ -173,11 +160,17 @@ body{
     img{
       width: 25px;
     }
+    .dev1, .dev2, .dev3, .dev4{
+      border: 2px solid rgb(0, 0, 0);
+      border-radius: 25%;
+      width: 100%;
+      height: 70%;
+    }
 }
 
-@media only screen and (max-width: 716px){
+@media only screen and (max-width: 800px){
   .content h1{
-    font-size: 13px;
+    font-size: 15px;
   }
 
   .head{
@@ -210,9 +203,124 @@ body{
 
     body{
       display: block;
+      height: 97vh;
     }
 
     .devs{
-      height: 20vh;
+      /* border: 2px solid white; */
+      height: 65vh;
+      width: 86vw;
+      margin-left: 7%;
+      margin-right: 7%;
+      display: flex;
+      gap: 20px;
+      justify-content: center;
+  }
+
+    .dev1, .dev2, .dev3, .dev4{
+      border: 2px solid rgb(0, 0, 0);
+      border-radius: 25%;
+      width: 100%;
+      height: 20%;
+      font-size: 10px;
     }
+
+    .heading{
+      text-align: center;
+      font-family: 'Times New Roman', Times, serif;
+      color: rgb(0, 0, 0);
+      height: 24%;
+      width: 100%;
+      font-size: 15px;
+  }
+
+ 
+
+
+  .name{
+    font-size: 16px;
+  }
+
+  .line{
+    border-top: 3px solid rgb(0, 0, 0);
+    height: 3%;
+    width: 92%;
+    margin: 4%;
+}
+
+  .about{
+    height: 50%;
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+
+  .head{
+    font-size: 15px;
+  }
+
+  .content h1{
+    margin: 0;
+  }
+
+  .arrow {
+    border: none;
+}
+}
+
+
+@media only screen and (max-width: 716px){
+  body{
+    display: block;
+    height: 98vh;
+  }
+
+  .devs{
+    /* border: 2px solid white; */
+    height: 65vh;
+    width: 86vw;
+    margin-left: 7%;
+    margin-right: 7%;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+
+  .dev1, .dev2, .dev3, .dev4{
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 25%;
+    width: 80px;
+    height: 20%;
+    /* font-size: 8px; */
+  }
+
+  .heading{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(0, 0, 0);
+    height: 24%;
+    width: 100%;
+    font-size: 10px;
+}
+
+.head{
+  font-size: 10px;
+}
+
+.name{
+    font-size: 12px;
+}
+
+img{
+  width: 15px;
+}
+
+.line{
+  margin-bottom: 2%;
+  margin-top: 2%;
+}
+
+b{
+  font-size: 10px;
+}
 }
