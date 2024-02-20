@@ -174,3 +174,45 @@ body{
       width: 25px;
     }
 }
+
+@media only screen and (max-width: 716px){
+  .content h1{
+    font-size: 13px;
+  }
+
+  .head{
+    font-size: 20px;
+  }
+
+  .heading{
+    font-size: 20px;
+  }
+  .name{
+    font-size: 25px;
+  }
+
+  img{
+    width: 25px;
+  }
+
+  .content{
+    width: 98%;
+  }
+}
+
+@media only screen and (max-width: 716px){
+    .line{
+      border: none;
+      height: 0;
+      width: 0;
+      margin: 0;
+    }
+
+    body{
+      display: block;
+    }
+
+    .devs{
+      height: 20vh;
+    }
+}
