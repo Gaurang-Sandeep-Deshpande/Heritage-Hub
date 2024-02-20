@@ -4,6 +4,7 @@ body{
     background: rgb(62,88,255);
     background: linear-gradient(90deg, rgba(62,88,255,1) 0%, rgba(0,125,255,1) 43%, rgba(0,212,255,1) 100%);
     display: flex;
+    font-family: 'Times New Roman', Times, serif;
 }
 
 .heading{
@@ -25,6 +26,11 @@ body{
 .about{   
     height: 100vh;
     width: 49vw;
+    
+    /* border: 2px solid white; */
+    height: 65vh;
+    width: 44vw;
+    margin-left: 2%;
 }
 
 .head{
@@ -35,6 +41,112 @@ body{
 }
 
 
-.dev{
-    border: 2px solid white;
+.devs{
+    /* border: 2px solid white; */
+    height: 65vh;
+    width: 44vw;
+    margin-left: 7%;
 }
+
+.back{
+    text-align: left;
+    margin-top: 5%;
+    margin-left: 4%;
+}
+.back button{
+    background: none;
+    border: none;
+}
+
+.back button:hover{
+    cursor: pointer;
+    
+}
+
+.arrow {
+    border: solid rgb(255, 255, 255);
+    border-width: 0 7px 7px 0;
+    display: inline-block;
+    padding: 7px;
+  }
+
+  .left {
+    transform: rotate(135deg);
+    -webkit-transform: rotate(135deg);
+  }
+
+  tr{
+    display: flex;
+  }
+
+  .dev1{
+    border: 2px solid white;
+    border-radius: 25%;
+    height: 100%;
+    width: 100%;
+  }
+  .dev2{
+    border: 2px solid white;
+    border-radius: 25%;
+    height: 100%;
+    width: 100%;
+  }
+  .dev3{
+    border: 2px solid white;
+    border-radius: 25%;
+    height: 100%;
+    width: 100%;
+  }
+  .dev4{
+    border: 2px solid white;
+    border-radius: 25%;
+    height: 100%;
+    width: 100%;
+  }
+
+  table{
+    height: 100%;
+    width: 100%;
+  }
+
+  tr{
+        height: 50%;
+  }
+  td{
+    width: 100%;
+    margin: 5px;
+  }
+
+
+  img{
+    width: 30px;
+  }
+
+  button{
+    background: none;
+    border: none;
+    cursor: pointer;
+  }
+
+  .name{
+    font-size: 35px;
+    /* padding: 15px; */
+  }
+
+  .content{
+    /* border: 2px solid white; */
+    border-radius: 25%;
+    height: 96%;
+    width: 94%;
+    
+  }
+
+  .content h1{
+    font-size: 18px;
+    color: white;
+    padding: 2px;
+    font-weight: 200;
+    font-family: 'Times New Roman', Times, serif;
+    
+  }
+  
