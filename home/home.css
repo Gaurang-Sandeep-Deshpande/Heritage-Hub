@@ -119,6 +119,20 @@ button:hover{
             background-image: url(../images/1200image3.jpg);
         }
     }
+    h1{
+        font-size: 28px;
+    }
+    .navbar button{
+        font-size: 11px;
+    }
+    
+    .details button{
+        font-size:16px;
+    }
+
+    .outer{
+        height: 100%;
+    }
 }
 
 @media only screen and (max-width: 800px){
