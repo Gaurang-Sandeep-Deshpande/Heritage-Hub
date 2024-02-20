@@ -36,15 +36,15 @@ body{
 
 
 .devs{
-    border: 2px solid white;
-    height: 60vh;
-    width: 40vw;
-    margin-left: 10%;
+    /* border: 2px solid white; */
+    height: 65vh;
+    width: 44vw;
+    margin-left: 7%;
 }
 
 .back{
     text-align: left;
-    margin-top: 8%;
+    margin-top: 5%;
     margin-left: 4%;
 }
 .back button{
@@ -75,25 +75,38 @@ body{
 
   .dev1{
     border: 2px solid white;
-    height: 10px;
-    width: 40;
+    border-radius: 25%;
+    height: 100%;
+    width: 100%;
   }
   .dev2{
     border: 2px solid white;
-    height: 60%;
-    width: 40;
+    border-radius: 25%;
+    height: 100%;
+    width: 100%;
   }
   .dev3{
     border: 2px solid white;
-    height: 60%;
-    width: 40;
+    border-radius: 25%;
+    height: 100%;
+    width: 100%;
   }
   .dev4{
     border: 2px solid white;
-    height: 60%;
-    width: 40;
+    border-radius: 25%;
+    height: 100%;
+    width: 100%;
   }
 
   table{
     height: 100%;
+    width: 100%;
+  }
+
+  tr{
+        height: 50%;
+  }
+  td{
+    width: 100%;
+    margin: 5px;
   }
