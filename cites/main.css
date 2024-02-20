@@ -43,3 +43,17 @@ h2 {
 .city-description {
     color: #666;
 }
+
+/* Media query for tablets */
+@media screen and (max-width: 768px) {
+    .grid-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+/* Media query for mobile devices */
+@media screen and (max-width: 480px) {
+    .grid-container {
+        grid-template-columns: 1fr;
+    }
+}
