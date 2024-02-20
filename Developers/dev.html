@@ -5,15 +5,30 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="dev.css">
     <title>Developer</title>
+    <script>
+        function back(){
+            window.history.back();
+        }
+    </script>
 </head>
 <body>
     <div class="heading">
         <h1>Developer</h1>
         <div class="devs">
-            <div class="dev1"></div>
-            <div class="dev2"></div>
-            <div class="dev3"></div>
-            <div class="dev4"></div>
+            <table>
+                <tr>
+                    <td><div class="dev1">1</div></td>
+                    
+                    <td><div class="dev2">2</div></td>
+                </tr>
+                <tr>
+                    <td><div class="dev3">3</div></td>
+                    <td><div class="dev4">4</div></td>
+                </tr>
+            </table>
+        </div>
+        <div class="back">
+            <button onclick="back()"><i class="arrow left"></i></button>
         </div>
     </div>
     <div class="line"></div>

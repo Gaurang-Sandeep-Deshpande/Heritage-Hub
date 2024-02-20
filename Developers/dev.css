@@ -35,6 +35,65 @@ body{
 }
 
 
-.dev{
+.devs{
     border: 2px solid white;
+    height: 60vh;
+    width: 40vw;
+    margin-left: 10%;
 }
+
+.back{
+    text-align: left;
+    margin-top: 8%;
+    margin-left: 4%;
+}
+.back button{
+    background: none;
+    border: none;
+}
+
+.back button:hover{
+    cursor: pointer;
+    
+}
+
+.arrow {
+    border: solid rgb(255, 255, 255);
+    border-width: 0 7px 7px 0;
+    display: inline-block;
+    padding: 7px;
+  }
+
+  .left {
+    transform: rotate(135deg);
+    -webkit-transform: rotate(135deg);
+  }
+
+  tr{
+    display: flex;
+  }
+
+  .dev1{
+    border: 2px solid white;
+    height: 10px;
+    width: 40;
+  }
+  .dev2{
+    border: 2px solid white;
+    height: 60%;
+    width: 40;
+  }
+  .dev3{
+    border: 2px solid white;
+    height: 60%;
+    width: 40;
+  }
+  .dev4{
+    border: 2px solid white;
+    height: 60%;
+    width: 40;
+  }
+
+  table{
+    height: 100%;
+  }
