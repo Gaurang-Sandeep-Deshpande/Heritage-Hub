@@ -107,7 +107,6 @@ button:hover{
     @keyframes animate {
         0%,100%{
             background-image: url(../images/1200image4.jpg);
-            
         }
         25%{
             background-image: url(../images/1200image1.jpg);
@@ -118,6 +117,20 @@ button:hover{
         75%{
             background-image: url(../images/1200image3.jpg);
         }
+    }
+    h1{
+        font-size: 28px;
+    }
+    .navbar button{
+        font-size: 11px;
+    }
+    
+    .details button{
+        font-size:16px;
+    }
+
+    .outer{
+        height: 100%;
     }
 }
 
