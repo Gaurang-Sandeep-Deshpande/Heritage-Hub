@@ -4,3 +4,10 @@ body{
     background: rgb(62,88,255);
     background: linear-gradient(90deg, rgba(62,88,255,1) 0%, rgba(0,125,255,1) 43%, rgba(0,212,255,1) 100%);
 }
+
+.heading{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    font-size: 50px;
+}
