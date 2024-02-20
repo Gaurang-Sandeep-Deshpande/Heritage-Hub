@@ -201,5 +201,18 @@ body{
 }
 
 @media only screen and (max-width: 716px){
-  
+    .line{
+      border: none;
+      height: 0;
+      width: 0;
+      margin: 0;
+    }
+
+    body{
+      display: block;
+    }
+
+    .devs{
+      height: 20vh;
+    }
 }
