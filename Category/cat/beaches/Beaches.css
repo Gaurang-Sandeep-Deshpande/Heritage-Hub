@@ -1,39 +1,58 @@
-
-#h1{
+#h1 {
     text-align: center
 }
 
-#beach_table_header{
+#beach_table_header {
     font-size: 19px;
 }
 
-#column1{
+.container {
+    display: flex;
+    /* Use flexbox for layout */
+
+}
+
+#column2 {
+
+    width: 100%; /* Adjust width as needed */
+    /* margin-left: 20%; Offset to accommodate fixed column */
+    padding: 10px; /* Optional padding */
+    overflow-y: auto; /* Add scrollbar if content overflows vertically */
+
+}
+#column1 {
     font-size: large;
-    font-weight:bold;
+    font-weight: bold;
+    width: 20%;
     padding: 18px;
     overflow: auto;
     vertical-align: top;
+
 }
 
-#li1{
+#li1 {
     gap: 30cm;
-    padding-bottom:  10px;
+    padding-bottom: 10px;
 }
-#li2{
+
+#li2 {
     gap: 30cm;
-    padding-bottom:  10px;
+    padding-bottom: 10px;
 }
-#li3{
+
+#li3 {
     gap: 30cm;
-    padding-bottom:  10px;
+    padding-bottom: 10px;
 }
-#li4{
+
+#li4 {
     gap: 30cm;
-    padding-bottom:  10px;
+    padding-bottom: 10px;
 }
-#li5{
+
+#li5 {
     gap: 30cm;
-    padding-bottom:  10px;
+    padding-bottom: 10px;
 }
 
 
@@ -103,12 +122,12 @@ h2 {
 }
 
 a {
-    text-decoration: none; 
-    color: #333; 
-    transition: color 0.3s; 
+    text-decoration: none;
+    color: #333;
+    transition: color 0.3s;
 }
 
 
 a:hover {
-    color: #000; 
+    color: #000;
 }
