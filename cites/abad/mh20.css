@@ -33,7 +33,7 @@ h2 {
 }
 
 .city-info {
-    padding: 15px;
+    padding: 35px;
 }
 
 .city-name {
@@ -43,7 +43,8 @@ h2 {
 }
 
 .city-description {
-    color: #666;
+    color: #0f0f0f;
+    font-size: larger;
 }
 /* Media query for tablets */
 @media screen and (max-width: 600px) {
