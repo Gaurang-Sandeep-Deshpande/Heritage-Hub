@@ -43,7 +43,8 @@ h2 {
 
 .city-description {
     color: 0f0f0f;
-    font-size:larger;;
+    font-size:larger;
+    text-align: justify ;
 }
 
 /* Media query for tablets */
