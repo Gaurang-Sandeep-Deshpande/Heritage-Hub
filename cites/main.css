@@ -32,7 +32,7 @@ h2 {
 }
 
 .city-info {
-    padding: 35px;
+    padding: 90px;
 }
 
 .city-name {
@@ -42,7 +42,9 @@ h2 {
 }
 
 .city-description {
-    color: #666;
+    color: 0f0f0f;
+    font-size:medium;
+    text-align: justify ;
 }
 
 /* Media query for tablets */
