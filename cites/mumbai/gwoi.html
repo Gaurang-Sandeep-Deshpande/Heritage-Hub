@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GOWI</title>
+</head>
+
+<style>
+    /* * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+
+    } */
+    body {
+    width: 100vw;
+    height: 100vh; 
+    margin: 0;
+    padding: 0;
+}
+
+.slideshow {
+    margin-left: 3%;
+    margin-right: 3%;
+    width: 90%;
+    height: 70vh;
+    /* background-image: url('gowi2.jpg'); */
+    background-size: 100% 100%;
+    animation: changeImg 6s linear infinite;
+}
+
+@keyframes changeImg {
+    0%, 100% {
+        background-image: url("imgs/gowi1.jpg");
+    }
+    25% {
+        background-image: url("imgs/gowi2.jpg");
+    }
+    50% {
+        background-image: url("imgs/gwoi3.jpg");
+    }
+    75% {
+        background-image: url("imgs/gwoi4.jpg");
+    }
+}
+
+</style>
+<body> 
+      <h1>Gateway Of India</h1> 
+      <hr>
+     <div class="slideshow">
+       
+
+
+     </div>
+</body>
+</html>
