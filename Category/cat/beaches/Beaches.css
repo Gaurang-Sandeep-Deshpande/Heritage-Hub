@@ -1,0 +1,114 @@
+
+#h1{
+    text-align: center
+}
+
+#beach_table_header{
+    font-size: 19px;
+}
+
+#column1{
+    font-size: large;
+    font-weight:bold;
+    padding: 18px;
+    overflow: auto;
+    vertical-align: top;
+}
+
+#li1{
+    gap: 30cm;
+    padding-bottom:  10px;
+}
+#li2{
+    gap: 30cm;
+    padding-bottom:  10px;
+}
+#li3{
+    gap: 30cm;
+    padding-bottom:  10px;
+}
+#li4{
+    gap: 30cm;
+    padding-bottom:  10px;
+}
+#li5{
+    gap: 30cm;
+    padding-bottom:  10px;
+}
+
+
+
+
+/* ............ CSS .............. */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #f4f4f4;
+}
+
+h2 {
+    text-align: center;
+    color: #333;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    padding: 30px;
+    justify-content: center;
+}
+
+.city-card {
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.city-image {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+}
+
+.city-info {
+    padding: 15px;
+}
+
+.city-name {
+    font-size: 1.2em;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.city-description {
+    color: #666;
+}
+
+/* Media query for tablets */
+@media screen and (max-width: 768px) {
+    .grid-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+/* Media query for mobile devices */
+@media screen and (max-width: 480px) {
+    .grid-container {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+
+a {
+    text-decoration: none; 
+    color: #333; 
+    transition: color 0.3s; 
+}
+
+
+a:hover {
+    color: #000; 
+}
