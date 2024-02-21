@@ -6,6 +6,131 @@
     <title>Document</title>
 </head>
 <body>
-    
+    <div class="card">
+        <div class="slideshow">
+            <div class="head">
+                <h1>Pandav Leni</h1>
+            </div>
+        </div>
+        <div class="disc">The Nasik Caves, or Trirashmi Leni (Trirashmi being the name of the hills in which the caves are located, Leni being a Marathi word for caves), are a group of 23 caves carved between the 1st century BCE and the 3rd century CE, though additional sculptures were added up to about the 6th century, reflecting changes in Buddhist devotional practices. Most of the caves are viharas except for Cave 18 which is a chaitya of the 1st century BCE. The style of some of the elaborate pillars or columns, for example in caves 3 and 10, is an important example of the development of the form. The location of the caves is a holy Buddhist site and is located about 8 km south of the centre of Nashik (or Nasik), Maharashtra, India. The Pandavleni name sometimes given to the Nasik Caves has nothing to do with the Pandavas, characters in the Mahabharata epic. Other caves in the area are Karla Caves, Bhaja Caves, Patan Cave, and Bedse Caves.
+            <br>
+            These are a group of twenty-four Hinayana Buddhist caves whose excavation was financed by the local Jain Kings. Cave No 3 is a large vihara or monastery with some interesting sculptures. Cave No 10 is also a vihara and almost identical in design to Cave No 3, but is much older and finer in detail. It is thought to be nearly as old as the Karla Cave near Lonavala. Cave No 18 is a chaitya worship hall believed to be similar in date to the Karla Caves. It is well sculptured, and its elaborate facade is particularly noteworthy. The cave houses the statues of Buddha, Jain Tirthankara Ṛṣabhadeva, and icons of the Jain yakṣas Maṇibhadra and Ambikā. The interiors of the caves were popular meeting places for the disciples, where sermons were delivered. There are water tanks that have been skillfully carved out of the solid rock.
+        </div>
+        
+            <div class="icons">
+                <img class="imgs" src="../img/maps.png" alt="maps
+                ">
+            </div>
+    </div>
 </body>
+<style>
+    body{
+        background-color: rgb(253, 237, 206);
+        margin: 0;
+        padding: 0;
+    }
+    
+    .card{
+        height: 94vh;
+        width: 54vw;
+        margin-top: 3vh;
+        margin-bottom: 3vh;
+        margin-right: 20vw;
+        margin-left: 20vw;
+        border-radius: 5%;
+        box-shadow: 10px 10px 20px 0px black;
+        background-color: white;
+    }
+
+
+    .head{
+        height: 100%;
+        width: 100%; 
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-48%, 0%);
+        font-size: 25px;
+        color: white;
+    }
+
+
+    .disc{
+        height: 52vh;
+        width: 95%;
+        padding: 20px;
+        font-size: 21px;
+    }
+    
+    .icons{
+        height: 12vh;
+        width: 100%;
+        padding: 10px;
+    }
+
+    .icons img{
+        width: 50px;
+    }
+
+    .slideshow {
+        animation: animate 6s ease-in-out infinite;
+        background-size: cover;
+        background-size: 100% 100%;
+        width: 100%;
+        height: 30vh;
+        position: relative;
+        z-index: 2;
+    }
+    
+    .slideshow::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.5);
+        border-top-left-radius: 10%;
+        border-top-right-radius: 10%; /* Adjust the alpha value to change darkness */
+    }
+    
+
+
+
+    @keyframes animate {
+        0%{
+            background-image: url(../img/001_Cave_1\,_Exterior\,_Side_\(33584610070\).jpg);
+            box-shadow: 5px 0px 10px 0px black;
+            border-top-left-radius: 10%;
+            border-top-right-radius: 10%;
+            border-bottom-right-radius: 0;
+            border-bottom-left-radius: 0;
+            
+        }
+        25%{
+            background-image: url(../img/002_Cave_1\,_Exterior\,_Front_\(33584607550\).jpg);
+            box-shadow: 5px 0px 10px 0px black;
+            border-top-left-radius: 10%;
+            border-top-right-radius: 10%;
+        }
+        50%{
+            background-image: url(../img/005_Cave_2\,_Exterior\,_Side_\(33584601570\).jpg);
+            box-shadow: 5px 0px 10px 0px black;
+            border-top-left-radius: 10%;
+            border-top-right-radius: 10%;
+        }
+        75%{
+            background-image: url(../img/092pandavleni.jpg);
+            box-shadow: 5px 0px 10px 0px black;
+            border-top-left-radius: 10%;
+            border-top-right-radius: 10%;
+        }
+        100%, 0%{
+            background-image: url(../img/Pandav_img4.jpg);
+            box-shadow: 5px 0px 10px 0px black;
+            border-top-left-radius: 10%;
+            border-top-right-radius: 10%;
+        }
+    }
+</style>
 </html>
