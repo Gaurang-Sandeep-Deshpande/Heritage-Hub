@@ -48,6 +48,18 @@ h2 {
     text-align: justify ;
 
 }
+
+.icons{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    width: 100%;
+    text-align: center;
+    margin-top: 10%;
+    }
+
+.icons img{
+    width: 40px;
+}
 /* Media query for tablets */
 @media screen and (max-width: 600px) {
     .grid-container {
