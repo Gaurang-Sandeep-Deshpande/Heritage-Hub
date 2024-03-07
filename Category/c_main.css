@@ -45,6 +45,9 @@ h2 {
 .city-description {
     color: #666;
     font-size: 13px;
+    text-align: justify;
+    color: #000;
+
 }
 
 .icons{
@@ -80,6 +83,8 @@ h2 {
     .city-description {
         color: #666;
         font-size: 13px;
+        text-align: justify;
+        color: #000;
     }
 }
 
@@ -110,6 +115,9 @@ h2 {
     .city-description {
         color: #666;
         font-size: 12px;
+        text-align: justify;
+        color: #000;
+
     }
 
     .city-image {
